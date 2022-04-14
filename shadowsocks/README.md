@@ -16,11 +16,11 @@ $ nano /etc/shadowsocks-libev/config.json
 ```
 ```shell
 {
-    "server":["your ip address"],
+    "server":["\`your ip address\`"],
     "mode":"tcp_and_udp",
-    "server_port":your ip port,
+    "server_port":\`your ip port\`,
     "local_port":1080,
-    "password":"your ip password",
+    "password":"\`your ip password\`",
     "timeout":60,
     "method":"chacha20-ietf-poly1305"
 }
