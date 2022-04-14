@@ -1,20 +1,20 @@
-1. Update database of available packages for apt
+#### 1. Update database of available packages for apt
 
-```bash
+```shell
 $ sudo apt update
 ```
-2. Install shadowsocks
+#### 2. Install shadowsocks
 
-```bash
+```shell
 $ apt install shadowsocks-libev
 ```
 
-3. Then edit the shadowsocks config file
+#### 3. Then edit the shadowsocks config file
 
-```bash
+```shell
 $ nano /etc/shadowsocks-libev/config.json
 ```
-```bash
+```shell
 {
     "server":["your ip address"],
     "mode":"tcp_and_udp",
@@ -26,8 +26,10 @@ $ nano /etc/shadowsocks-libev/config.json
 }
 ```
 
-4. Restart shadowsocks service
+#### 4. Restart shadowsocks service
 
-```bash
+```shell
 $ sudo systemctl restart shadowsocks-libev
 ```
+
+#### [Clients](https://shadowsocks.org/en/download/clients.html) for connection
