@@ -1,18 +1,18 @@
 #### 1. Update database of available packages for apt
 
 ```shell
-$ sudo apt update
+ sudo apt update
 ```
 #### 2. Install shadowsocks
 
 ```shell
-$ apt install shadowsocks-libev
+ apt install shadowsocks-libev
 ```
 
 #### 3. Then edit the shadowsocks config file
 
 ```shell
-$ nano /etc/shadowsocks-libev/config.json
+ nano /etc/shadowsocks-libev/config.json
 ```
 ```shell
 {
@@ -29,7 +29,7 @@ $ nano /etc/shadowsocks-libev/config.json
 #### 4. Restart shadowsocks service
 
 ```shell
-$ sudo systemctl restart shadowsocks-libev
+ sudo systemctl restart shadowsocks-libev
 ```
 
 #### [Clients](https://shadowsocks.org/en/download/clients.html) for connection
