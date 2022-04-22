@@ -6,7 +6,7 @@
 #### 2. Install shadowsocks
 
 ```shell
- apt install shadowsocks-libev
+ sudo apt install shadowsocks-libev
 ```
 
 #### 3. Then edit the shadowsocks config file
